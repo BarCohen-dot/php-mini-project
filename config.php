@@ -2,10 +2,10 @@
 <!-- לצורך שמירת החיבור מהצורה Reauire_once(config.php) -->
 
 <?php
-$host = 'localhost';     // כתובת שרת MySQL
-$username = 'root';      // שם משתמש של MySQL
+$host = '';     // כתובת שרת MySQL
+$username = '';      // שם משתמש של MySQL
 $password = '';          // סיסמה של MySQL (בדרך כלל ריקה ב-XAMPP)
-$database = 'successDB'; // שם בסיס הנתונים הספציפי עליו נעבוד
+$database = ''; // שם בסיס הנתונים הספציפי עליו נעבוד
 
 // יצירת חיבור
 $conn = new mysqli($host, $username, $password, $database);
